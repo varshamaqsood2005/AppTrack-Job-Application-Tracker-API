@@ -1,0 +1,242 @@
+[
+  {
+    "company": "Tabby",
+    "role": "Python Developer",
+    "source": "referral",
+    "status": "offer",
+    "remote": true,
+    "expected_salary": 5000,
+    "applied_on": "2026-01-09",
+    "first_response_on": "2026-01-12"
+  },
+  {
+    "company": "Lean Technologies",
+    "role": "Backend Engineer",
+    "source": "linkedin",
+    "status": "interview",
+    "remote": true,
+    "expected_salary": 5100,
+    "applied_on": "2026-01-15",
+    "first_response_on": "2026-01-20"
+  },
+  {
+    "company": "Unifonic",
+    "role": "Senior Python Engineer",
+    "source": "linkedin",
+    "status": "offer",
+    "remote": false,
+    "expected_salary": 5200,
+    "applied_on": "2026-01-18",
+    "first_response_on": "2026-01-22"
+  },
+  {
+    "company": "Sary",
+    "role": "Backend Developer",
+    "source": "company_site",
+    "status": "rejected",
+    "remote": false,
+    "expected_salary": 4500,
+    "applied_on": "2026-02-01",
+    "first_response_on": "2026-02-08"
+  },
+  {
+    "company": "Tamara",
+    "role": "Software Engineer",
+    "source": "recruiter",
+    "status": "interview",
+    "remote": true,
+    "expected_salary": 4800,
+    "applied_on": "2026-02-03",
+    "first_response_on": "2026-02-10"
+  },
+  {
+    "company": "Foodics",
+    "role": "Python Backend Engineer",
+    "source": "linkedin",
+    "status": "screening",
+    "remote": true,
+    "expected_salary": 4600,
+    "applied_on": "2026-02-05",
+    "first_response_on": "2026-02-11"
+  },
+  {
+    "company": "Jahez",
+    "role": "API Developer",
+    "source": "referral",
+    "status": "applied",
+    "remote": false,
+    "expected_salary": 4200,
+    "applied_on": "2026-02-10",
+    "first_response_on": null
+  },
+  {
+    "company": "Nana",
+    "role": "Backend Engineer",
+    "source": "company_site",
+    "status": "applied",
+    "remote": true,
+    "expected_salary": 4400,
+    "applied_on": "2026-02-12",
+    "first_response_on": null
+  },
+  {
+    "company": "Floward",
+    "role": "Python Developer",
+    "source": "linkedin",
+    "status": "rejected",
+    "remote": false,
+    "expected_salary": 4000,
+    "applied_on": "2026-02-15",
+    "first_response_on": "2026-02-22"
+  },
+  {
+    "company": "TruKKer",
+    "role": "Software Engineer - Python",
+    "source": "recruiter",
+    "status": "interview",
+    "remote": true,
+    "expected_salary": 4700,
+    "applied_on": "2026-02-18",
+    "first_response_on": "2026-02-25"
+  },
+  {
+    "company": "Fetchr",
+    "role": "Backend Engineer",
+    "source": "linkedin",
+    "status": "rejected",
+    "remote": false,
+    "expected_salary": 3800,
+    "applied_on": "2026-02-20",
+    "first_response_on": "2026-02-26"
+  },
+  {
+    "company": "Swvl",
+    "role": "Python Engineer",
+    "source": "referral",
+    "status": "withdrawn",
+    "remote": true,
+    "expected_salary": 4900,
+    "applied_on": "2026-02-22",
+    "first_response_on": "2026-02-28"
+  },
+  {
+    "company": "Noon",
+    "role": "Senior Backend Developer",
+    "source": "linkedin",
+    "status": "screening",
+    "remote": false,
+    "expected_salary": 5000,
+    "applied_on": "2026-03-02",
+    "first_response_on": "2026-03-08"
+  },
+  {
+    "company": "Careem",
+    "role": "Backend Software Engineer",
+    "source": "referral",
+    "status": "interview",
+    "remote": true,
+    "expected_salary": 5300,
+    "applied_on": "2026-03-04",
+    "first_response_on": "2026-03-09"
+  },
+  {
+    "company": "Property Finder",
+    "role": "Python Developer",
+    "source": "company_site",
+    "status": "applied",
+    "remote": true,
+    "expected_salary": 4300,
+    "applied_on": "2026-03-05",
+    "first_response_on": null
+  },
+  {
+    "company": "Bayzat",
+    "role": "API Engineer",
+    "source": "linkedin",
+    "status": "rejected",
+    "remote": true,
+    "expected_salary": 4100,
+    "applied_on": "2026-03-08",
+    "first_response_on": "2026-03-15"
+  },
+  {
+    "company": "Kitopi",
+    "role": "Backend Developer",
+    "source": "recruiter",
+    "status": "screening",
+    "remote": false,
+    "expected_salary": 4600,
+    "applied_on": "2026-03-10",
+    "first_response_on": "2026-03-14"
+  },
+  {
+    "company": "Huspy",
+    "role": "Python Engineer",
+    "source": "linkedin",
+    "status": "applied",
+    "remote": true,
+    "expected_salary": 4800,
+    "applied_on": "2026-03-12",
+    "first_response_on": null
+  },
+  {
+    "company": "Rain",
+    "role": "Backend Software Engineer",
+    "source": "company_site",
+    "status": "rejected",
+    "remote": true,
+    "expected_salary": 4400,
+    "applied_on": "2026-03-15",
+    "first_response_on": "2026-03-22"
+  },
+  {
+    "company": "Sarwa",
+    "role": "Python Developer",
+    "source": "linkedin",
+    "status": "applied",
+    "remote": true,
+    "expected_salary": 4500,
+    "applied_on": "2026-03-18",
+    "first_response_on": null
+  },
+  {
+    "company": "Ziina",
+    "role": "Backend Engineer",
+    "source": "referral",
+    "status": "rejected",
+    "remote": false,
+    "expected_salary": 4200,
+    "applied_on": "2026-03-20",
+    "first_response_on": "2026-03-23"
+  },
+  {
+    "company": "Baraka",
+    "role": "Software Engineer",
+    "source": "recruiter",
+    "status": "rejected",
+    "remote": true,
+    "expected_salary": 4000,
+    "applied_on": "2026-03-22",
+    "first_response_on": "2026-03-29"
+  },
+  {
+    "company": "Postpay",
+    "role": "Python Backend Developer",
+    "source": "company_site",
+    "status": "applied",
+    "remote": false,
+    "expected_salary": 3900,
+    "applied_on": "2026-03-25",
+    "first_response_on": null
+  },
+  {
+    "company": "Spotii",
+    "role": "API Engineer",
+    "source": "linkedin",
+    "status": "withdrawn",
+    "remote": true,
+    "expected_salary": 4100,
+    "applied_on": "2026-03-28",
+    "first_response_on": "2026-04-02"
+  }
+]
