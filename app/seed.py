@@ -8,7 +8,9 @@ from app.models import Application
 
 def seed_data(filepath: str):
     file_path = Path(filepath)
-    if not file_path.exists():
+
+    # Check if the path exists AND is a regular file (rejects directories)
+    if not file_path.is_file():
         print(f"Error: File '{filepath}' not found.", file=sys.stderr)
         sys.exit(1)
 

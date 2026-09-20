@@ -81,20 +81,3 @@ def test_create_missing_required_field(client):
     response = client.post("/applications", json=payload)
     assert response.status_code == 422
 
-def test_analytics_endpoints(client):
-    # Seed a test application with offer status
-    client.post("/applications", json={
-        "company": "Test Co",
-        "role": "Engineer",
-        "source": "linkedin",
-        "status": "offer",
-        "applied_on": "2026-01-01"
-    })
-
-    res_counts = client.get("/applications/stats/status-counts")
-    assert res_counts.status_code == 200
-    assert "offer" in res_counts.json()
-
-    res_rate = client.get("/applications/stats/conversion-rate")
-    assert res_rate.status_code == 200
-    assert "conversion_rate" in res_rate.json()

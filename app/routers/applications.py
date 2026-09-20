@@ -14,14 +14,6 @@ def list_applications(db: Session = Depends(get_db)):
 def create_application(payload: schemas.ApplicationCreate, db: Session = Depends(get_db)):
     return crud.create_application(db, payload)
 
-@router.get("/stats/status-counts")
-def get_status_counts(db: Session = Depends(get_db)):
-    return crud.get_status_counts(db)
-
-@router.get("/stats/conversion-rate")
-def get_conversion_rate(db: Session = Depends(get_db)):
-    return crud.get_conversion_rate(db)
-
 @router.get("/{app_id}", response_model=schemas.ApplicationOut)
 def get_application(app_id: int, db: Session = Depends(get_db)):
     app_obj = crud.get_application(db, app_id)
@@ -43,3 +35,11 @@ def delete_application(app_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Application not found")
     crud.delete_application(db, app_obj)
     return None
+
+from app.seed import seed_data
+
+def test_seed_and_count_twenty_four(client, db_session):
+    seed_data("seed.json", db_session)
+    response = client.get("/applications")
+    assert response.status_code == 200
+    assert len(response.json()) == 24
